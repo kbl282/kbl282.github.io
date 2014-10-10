@@ -1,0 +1,40 @@
+body {
+  font-family: 'Droid Sans', arial, sans-serif;
+  font-weight: 300;
+  background: url(sky.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+img {
+    border: 10px solid grey;
+    border-color: green;
+}
+
+table {
+	line-height: 40px;
+
+}
+
+h1 {
+  font: sans-serif;
+  color: red;
+  font-size: 24;
+  float: right;
+}
+
+div#wrapper {
+  width: 960px;
+  margin: 25px auto;
+  padding: 30px;
+  }
+
+h3 {
+  color: purple;
+  width: 400px;
+  margin: 10px;
+  padding: 40px;
+  line-height: 40px;
+}
+}
