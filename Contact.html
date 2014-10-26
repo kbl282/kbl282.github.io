@@ -51,20 +51,27 @@
 
 <body>
   <div class="container">
-   <div class="row">
-      <div class="col-md-6">
-        <h1>About us</h1>
-        <h5>Trees.org is dedicated to fighting deforestation across the globe. Our microlending portal offers the opportunity to anyone to invest in the forest and the trees. You can choose to donate once or have a rolling donation and Trees.org will use your money to support local initiatives that preserve the value of the trees.</h5>
-        <h1>Fun facts about deforestation</h1>
-        <li>Forests cover 31% of earth's land</li>
-        <li>It's estimated that within 100 years there will be no rainforests</li>
-        <li>Agriculture is the leading cause of deforestation</li>
-        <li>One and a half acres or forest is cut down every second</li>
-        <li>Loss of forests contrinutes between 12 perfect and 17 perfect of global greenhouse gas emissions</li>
+    <form role="form">
+      <div class="form-group">
+        <label for="Name">Name</label>
+        <input type="name" class="form-control" id="Name" placeholder="Name">
+      </div>     
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
       </div>
-      <div class="col-md-6">
-        <img src="canopy.jpg" class="img-square">
+      <div>
+        <label for="Comments">Comments</label>
+        <input type="text" class="form-control" placeholder="Comments">
+      </div>  
+        <label>
+          <input type="checkbox"> Subscribe to email newsletter
+        </label>
       </div>
+      <div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </div>      
+    </form>  
    </div>
   </div>
 </body>
