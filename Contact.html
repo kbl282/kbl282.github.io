@@ -51,7 +51,7 @@
 
 <body>
   <div class="container">
-    <form role="form">
+    <form action="mailto:borden.kevin@gmail.com?subject=subject&body=body" method="post">
       <div class="form-group">
         <label for="Name">Name</label>
         <input type="name" class="form-control" id="Name" placeholder="Name">
@@ -62,7 +62,7 @@
       </div>
       <div>
         <label for="Comments">Comments</label>
-        <input type="text" class="form-control" placeholder="Comments">
+        <textarea class="form-control" name="body" rows="3" placeholder="Comments"></textarea>
       </div>  
         <label>
           <input type="checkbox"> Subscribe to email newsletter
